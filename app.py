@@ -12,7 +12,6 @@ mission_names = [
     ]
 
 def process_missions(mission_list, x):
-    # Elabora le missioni e restituisci i risultati come stringa multi-linea
     output_list = []
     output_list.append('')
 
@@ -49,7 +48,6 @@ def process_missions(mission_list, x):
                     op_list.append(key)
         check_dict = tmp_dict
 
-        # unisco le due liste in un dizionario
         no_miss_dict = dict(zip(op_list, miss_list))
 
         result = ""
@@ -65,16 +63,12 @@ def process_missions(mission_list, x):
         else:
             output_list.append(f'After mission {i} --> {result[:-2]}')
 
+    height = len(output_list) * 0.5  
+    
+    fig, ax = plt.subplots(figsize=[10, height])
 
-    height = len(output_list) * 0.5  # Modifica il valore moltiplicatore per regolare l'altezza per riga
-
-    # Crea una figura con l'altezza calcolata e un asse
-    fig, ax = plt.subplots(figsize=[10, height])  # Modifica il valore [10, height] per regolare la larghezza e l'altezza della figura
-
-    # Disattiva gli assi
     ax.axis('off')
 
-    # Aggiungi il testo all'asse
     text = '\n'.join(output_list)
     ax.text(0.02, 0.90, text, fontsize=12, va='top', ha='left')
 
