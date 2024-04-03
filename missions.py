@@ -21,6 +21,7 @@ operators = [
     {'nome_operatore': 'Joe', 'Basic Mission': 160, 'Bayonet': 65, 'Breach': 115, 'BSS': 95, 'Cleanup': 240, 'Common Only': 65, 'Cover': 115, 'Hammer': 95, 'HILDR': 100, 'Knife': 90, 'Locals': 225, 'Logistics': 115, 'Rare Only': 240, 'Recon': 115, 'Showdown': 115, 'Uncommon Only': 65},
     {'nome_operatore': 'Valera', 'Basic Mission': 160, 'Bayonet': 65, 'Breach': 155, 'BSS': 95, 'Cleanup': 115, 'Common Only': 65, 'Cover': 240, 'Hammer': 95, 'HILDR': 100, 'Knife': 320, 'Locals': 95, 'Logistics': 115, 'Rare Only': 240, 'Recon': 115, 'Showdown': 115, 'Uncommon Only': 65},
     {'nome_operatore': 'Capisce', 'Basic Mission': 160, 'Bayonet': 65, 'Breach': 155, 'BSS': 95, 'Cleanup': 115, 'Common Only': 65, 'Cover': 115, 'Hammer': 95, 'HILDR': 100, 'Knife': 90, 'Locals': 225, 'Logistics': 115, 'Rare Only': 240, 'Recon': 115, 'Showdown': 240, 'Uncommon Only': 65},
+    {'nome_operatore': 'Owen', 'Basic Mission': 379, 'Bayonet': 497, 'Breach': 272, 'BSS': 604, 'Cleanup': 272, 'Common Only': 154, 'Cover': 272, 'Hammer': 225, 'HILDR': 237, 'Knife': 213, 'Locals': 225, 'Logistics': 569, 'Rare Only': 569, 'Recon': 272, 'Showdown': 272, 'Uncommon Only': 154},
 
     {'nome_operatore': 'Epics', 'Basic Mission': 200, 'Bayonet': 200, 'Breach': 200, 'BSS': 200, 'Cleanup': 200, 'Common Only': 200, 'Cover': 200, 'Hammer': 200, 'HILDR': 200, 'Knife': 200, 'Locals': 200, 'Logistics': 200, 'Rare Only': 200, 'Recon': 200, 'Showdown': 200, 'Uncommon Only': 200},
 ]
